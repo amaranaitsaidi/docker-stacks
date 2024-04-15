@@ -64,6 +64,7 @@ RUN mamba install --yes \
     'grpcio-status' \
     'grpcio' \
     'pandas=2.0.3' \
+    'pyspark' \
     'pyarrow' && \
     mamba clean --all -f -y && \
     fix-permissions "${CONDA_DIR}" && \
